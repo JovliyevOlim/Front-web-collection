@@ -6,14 +6,19 @@ export const slice = createSlice({
     name: 'collection',
     initialState: {
         collection: [],
+        oneCollection:{},
         current: false,
     },
     reducers: {
         get: (state, action) => {
             state.collection = action.payload.object
         },
+        getOne:(state,action)=>{
+            state.oneCollection = action.payload.object
+        },
         delete: (state, action) => {
-            toast.success('User Deleted')
+            toast.success('Collection Deleted')
+            state.current = !state.current
         },
         post: (state, action) => {
             toast.success('Collection Created')
@@ -27,6 +32,18 @@ export const slice = createSlice({
 
 export const getcollection = () => apiCall({
     url: `/collection`,
+    method: 'get',
+    onSuccess: slice.actions.get.type
+
+})
+export const getOnecollection = (id) => apiCall({
+    url: `/collection/get-by-id/`+id,
+    method: 'get',
+    onSuccess: slice.actions.getOne.type
+
+})
+export const getUsercollection = (id) => apiCall({
+    url: `/collection/get-by-userId/`+id,
     method: 'get',
     onSuccess: slice.actions.get.type
 

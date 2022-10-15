@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12180092-9169-4f2e-b9b8-dbab7b970dc0" name="Changes" comment="" />
+    <list default="true" id="12180092-9169-4f2e-b9b8-dbab7b970dc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AllCollections.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Collection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OneCollection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/YourCollection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/AuthorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Authors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authors.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Collections.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/CollectionReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/CollectionReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +90,12 @@
       <workItem from="1665462849268" duration="8333000" />
       <workItem from="1665546843666" duration="242000" />
       <workItem from="1665565788879" duration="1201000" />
-      <workItem from="1665586851055" duration="3827000" />
+      <workItem from="1665586851055" duration="5577000" />
+      <workItem from="1665674596140" duration="3261000" />
+      <workItem from="1665733517068" duration="12513000" />
+      <workItem from="1665759735358" duration="2704000" />
+      <workItem from="1665764077866" duration="994000" />
+      <workItem from="1665821048850" duration="5895000" />
     </task>
     <servers />
   </component>
@@ -98,13 +118,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/navbar/Navbar.jsx</url>
-          <line>45</line>
+          <line>47</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/navbar/Navbar.jsx</url>
-          <line>32</line>
+          <line>36</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Users.jsx</url>
+          <line>97</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

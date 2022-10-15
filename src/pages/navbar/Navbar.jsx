@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Link, NavLink,useLocation} from 'react-router-dom'
+import {Link, NavLink,useLocation,useNavigate} from 'react-router-dom'
 import {BaseURl} from "../../AxiosApi";
 function Navbar(props) {
 
@@ -16,9 +16,13 @@ function Navbar(props) {
         }
     },[localStorage])
 
+    const navigate = useNavigate();
+
+
     function signOut(){
         localStorage.removeItem('token')
         localStorage.removeItem('userObject')
+        navigate('/')
        settoken(false)
     }
     const location = useLocation()
@@ -38,9 +42,7 @@ function Navbar(props) {
                         className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Collection</span>
                 </Link>
 
-                {
-                    console.log(location)
-                }
+
 
                 <div className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
                      id="mobile-menu-2">
